@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Divert
-Summary:	String::Divert - String Object supporting Folding and Diversions
+Summary:	String::Divert - string object supporting folding and diversions
 Summary(pl):	String::Divert - obiekt ³añcucha obs³uguj±cy zwijanie i przekierowania
 Name:		perl-String-Divert
 Version:	0.93
