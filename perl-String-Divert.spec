@@ -10,7 +10,7 @@ Summary(pl):	String::Divert - obiekt ³añcucha obs³uguj±cy zwijanie i przekierowa
 Name:		perl-String-Divert
 Version:	0.93
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	af85944c53c39ce3585a100a91a4bbda
@@ -40,7 +40,6 @@ struktury wyj¶cia.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
