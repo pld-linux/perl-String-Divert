@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	Divert
+%define		pdir	String
+%define		pnam	Divert
 Summary:	String::Divert - string object supporting folding and diversions
 Summary(pl):	String::Divert - obiekt ³añcucha obs³uguj±cy zwijanie i przekierowania
 Name:		perl-String-Divert
