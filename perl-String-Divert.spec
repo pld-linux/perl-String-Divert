@@ -8,12 +8,12 @@
 Summary:	String::Divert - string object supporting folding and diversions
 Summary(pl):	String::Divert - obiekt ³añcucha obs³uguj±cy zwijanie i przekierowania
 Name:		perl-String-Divert
-Version:	0.94
+Version:	0.96
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b554a1e6feb3c276f5fa211c40fc229c
+# Source0-md5:	c574d757af76d55819d18654d1603b48
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
