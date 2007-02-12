@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Divert
 Summary:	String::Divert - string object supporting folding and diversions
-Summary(pl):	String::Divert - obiekt ³añcucha obs³uguj±cy zwijanie i przekierowania
+Summary(pl.UTF-8):   String::Divert - obiekt Å‚aÅ„cucha obsÅ‚ugujÄ…cy zwijanie i przekierowania
 Name:		perl-String-Divert
 Version:	0.96
 Release:	1
@@ -26,13 +26,13 @@ object with some overloaded operators, supporting the concept of
 output. The idea is to decouple the sequential generation of output from
 the nested and non-sequential structure of the output.
 
-%description -l pl
-String::Divert to ma³y modu³ Perla 5 udostêpniaj±cy podobny do skalara
-obiekt ³añcucha z paroma przeci±¿onymi operatorami, obs³uguj±cy ideê
-"zwijania" i "przekierowywania". Pozwala to na zagnie¿d¿one
-generowanie strukturalnego wyj¶cia. Idea polega na wy³±czeniu
-sekwencyjnego generowania wyj¶cia z zagnie¿d¿onej, niesekwencyjnej
-struktury wyj¶cia.
+%description -l pl.UTF-8
+String::Divert to maÅ‚y moduÅ‚ Perla 5 udostÄ™pniajÄ…cy podobny do skalara
+obiekt Å‚aÅ„cucha z paroma przeciÄ…Å¼onymi operatorami, obsÅ‚ugujÄ…cy ideÄ™
+"zwijania" i "przekierowywania". Pozwala to na zagnieÅ¼dÅ¼one
+generowanie strukturalnego wyjÅ›cia. Idea polega na wyÅ‚Ä…czeniu
+sekwencyjnego generowania wyjÅ›cia z zagnieÅ¼dÅ¼onej, niesekwencyjnej
+struktury wyjÅ›cia.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
