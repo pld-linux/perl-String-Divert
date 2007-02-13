@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Divert
 Summary:	String::Divert - string object supporting folding and diversions
-Summary(pl.UTF-8):   String::Divert - obiekt łańcucha obsługujący zwijanie i przekierowania
+Summary(pl.UTF-8):	String::Divert - obiekt łańcucha obsługujący zwijanie i przekierowania
 Name:		perl-String-Divert
 Version:	0.96
 Release:	1
